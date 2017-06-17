@@ -9,7 +9,7 @@ public class ListOfStudent {
 		return students;
 	}
 
-	public void addStudentToGroup(Student student) {
+	public void addStudentToList(Student student) {
 		students.add(student);
 	}
 
