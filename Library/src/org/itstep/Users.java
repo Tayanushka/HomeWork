@@ -2,6 +2,33 @@ package org.itstep;
 
 public class Users {
 	private String login;
+	private String pass;
+	private String city;
+	private String name;
+
+	public String getPass() {
+		return pass;
+	}
+
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public String getLogin() {
 		return login;
@@ -10,6 +37,5 @@ public class Users {
 	public void setLogin(String login) {
 		this.login = login;
 	}
-	
 
 }

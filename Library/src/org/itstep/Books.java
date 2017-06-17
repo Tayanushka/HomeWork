@@ -15,5 +15,17 @@ public class Books {
 		this.author = author;
 	}
 	private String author;
-
+	
+	private int forCourse;
+	public int getForCourse() {
+		return forCourse;
+	}
+	public void setForCourse(int forCourse) {
+		this.forCourse = forCourse;
+	}
+	public Books (String bookTitle, String author, int forCourse) {
+		this.setBookTitle(bookTitle);
+		this.setAuthor(author);
+		this.setForCourse(forCourse);
+	}
 }
