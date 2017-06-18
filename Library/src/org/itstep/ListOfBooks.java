@@ -3,14 +3,14 @@ package org.itstep;
 import java.util.ArrayList;
 
 public class ListOfBooks {
-	private ArrayList<Books> books = new ArrayList<>();
+	private ArrayList<Books> book = new ArrayList<>();
 
-	public ArrayList<Books> getBooks() {
-		return books;
+	public ArrayList<Books> getBook() {
+		return book;
 	}
 
 	public void addBooksToList(Books books) {
-		books.add(books);
+		book.add(books);
 	}
 
 	}
