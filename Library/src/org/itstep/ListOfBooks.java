@@ -9,7 +9,7 @@ public class ListOfBooks {
 		return book;
 	}
 
-	public void addBooksToList(Books books) {
+	public void addBooks(Books books) {
 		book.add(books);
 	}
 
