@@ -37,6 +37,16 @@ public class ShowOurWork {
 		books.add(book5);		
 		books.add(book6);}
 		
+		for (Student student : group.getStudents()){
+			for (Book oneBook : books){
+				if(oneBook.getforCourse()==student.getCourse()){
+					student.setBookForStudy(oneBook);
+					break;
+					
+				}
+			}
+			
+		}
 		}
 	}
 
